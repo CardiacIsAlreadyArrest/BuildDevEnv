@@ -28,8 +28,8 @@ RUN apt-get clean && \
 # 设置工作目录
 WORKDIR /usr/src/code
 
-# 克隆项目
-CMD ["git","clone","https://github.com/CardiacIsAlreadyArrest/Douyin_Simple_Demo.git"]
+# # 克隆项目
+# CMD ["git","clone","https://github.com/CardiacIsAlreadyArrest/Douyin_Simple_Demo.git"]
 # api服务端口
 EXPOSE 8080
 # rpc服务端口
